@@ -27,3 +27,4 @@ script:
   - unzip 2.0.0.zip
   - cd SVDB-2.0.0
   - pip install -e .
+  - svdb --help
