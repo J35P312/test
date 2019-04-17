@@ -23,6 +23,8 @@ install:
 
 script:
 ## Run MIP install script
+  - conda create --name myenv python=2.7
+  - source activate myenv
   - wget https://github.com/J35P312/SVDB/archive/2.0.0.zip
   - unzip 2.0.0.zip
   - cd SVDB-2.0.0
